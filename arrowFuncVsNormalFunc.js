@@ -23,3 +23,14 @@ console.log('Output of addition func using arrow function in type 3 ->', addMeAr
 //                         [in case of no params, Empty bracket are required]
 var addMeArrowFour = () => 2 + 4
 console.log('Output of addition func using arrow function in type 4 ->', addMeArrowFour())
+
+/*
+Sample code of promises
+--------- this is normal .then --------------
+    .then(function (insertResponse) {
+      deferred.resolve(insertResponse)
+    })
+--------- these are .then written using  arrow functions-------
+    .then(response => someFunc(response))
+    .then(response => deferred.resolve(response))
+*/
